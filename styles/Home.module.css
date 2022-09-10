@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -126,4 +126,18 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.buttonWrapper {
+  margin-top: 2rem;
+}
+
+.button {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radious: 2rem;
+  padding: 1rem;
+  color: #ccc;
+  font-size: 1rem;
+  font-color: white;
+  cursor: pointer;
 }
